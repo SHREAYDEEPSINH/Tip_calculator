@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="mainup"> 
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="maindown">
+           <form action="">
+            <label for="billamount">Enter your bill amount</label>
+            <input type="text" id="billamount" placeholder="Amount paid for services">
+
+            <label for="service">How was the service ?</label>
+            <select id="service">
+                <option selected hidden value="select">select</option>
+                <option value="5">5% Not So good</option>
+                <option value="10">10% Medium</option>
+                <option value="15">15% More Excellent</option>
+                <option value="20">20% Excellent</option>
+                <option value="25">25% Better</option>
+            </select>
+
+            <label for="people">How many people are sharing the bill ?</label>
+            <input type="text" id="people" placeholder="People sharing the bill">
+
+            <button id="calculate">Calculate</button>
+            <div class="ans">
+                
+            </div>
+           </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
+
